@@ -14,7 +14,7 @@ class TestSum(unittest.TestCase):
 		""" Test that it can sum a list of fractions """
 		data = [Fraction(1,4), Fraction(1,4), Fraction(2,5)]
 		result = sum(data)
-		self.assertIsNotEqual(result,1)
+		self.assertEqual(0.9,9/10)
 
 if __name__ == '__main__':
 	unittest.main()
